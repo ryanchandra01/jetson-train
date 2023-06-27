@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 res = input("\r\nPlease enter model name: ")
 
-files = os.listdir("models/{}".format(res))
+files = os.listdir("gdrive/MyDrive/models/{}".format(res))
 fileLst = []
 for file in files:
     if "mb" in file:
